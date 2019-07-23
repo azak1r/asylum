@@ -75,7 +75,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class=" dropdown dropdown-hover">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                        KuroKy
+                        YOUR USERNAME COMES HERE!!
                         <!--<span class="badge bg-default">8</span>
                         <span class="caret"></span>-->
                         <span class="label">user</span>
