@@ -19,6 +19,8 @@
 
     </head>
     <body>
+        @include('components.loader')
+
         @include('partials.navbar')
 
         <div class="content-wrap">
