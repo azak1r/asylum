@@ -1,9 +1,9 @@
 // theme colors
 $theme:                  dark !default;
 $main_color:             #d92b4c !default; // light
-$back_color:             #160962 !default; // dark
+$back_color:             #000004 !default; // dark
 $back_darken_color:      darken($back_color, 13) !default; // darken
-$back_grey_color:        #30303d !default;
+$back_grey_color:        #5f0a0a !default;
 $back_darken_grey_color: darken($back_grey_color, 10) !default;
 $text_color:             #fff !default;
 $text_mute_color:        rgba($text_color, .5) !default;

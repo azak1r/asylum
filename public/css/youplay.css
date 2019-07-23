@@ -13,8 +13,8 @@
   [Color codes]
 
   Main:         #d92b4c (buttons/links hover)
-  Back:         #080325 (Content Background)
-  Back Images:  #160962 (back on images)
+  Back:         black (Content Background)
+  Back Images:  #000004 (back on images)
   Text:         #fff
   Muted Text:   rgba(255, 255, 255, 0.5)
 
@@ -52,8 +52,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-wrap: break-word;
-  background: #080325;
-  background: rgba(8, 3, 37, 0.9);
+  background: black;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 /*
@@ -232,7 +232,7 @@ img {
   padding: 0.1px;
   margin: 0 auto;
   overflow: hidden;
-  background: #080325;
+  background: black;
 }
 
 .content-wrap .youplay-content {
@@ -2663,13 +2663,13 @@ img.rounded {
 
 .dropdown-menu > li > a {
   padding: 10px 20px;
-  color: #080325;
+  color: black;
   text-decoration: none;
 }
 
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
-  color: #080325;
+  color: black;
   background-color: #f2f2f2;
 }
 
@@ -3438,7 +3438,7 @@ fieldset[disabled] .btn {
  ----------------------------*/
 
 .modal-content {
-  background-color: #080325;
+  background-color: black;
   border: none;
   border-radius: 0;
   box-shadow: none;
@@ -3473,7 +3473,7 @@ fieldset[disabled] .btn {
 .tooltip-inner {
   position: relative;
   padding: 8px 18px;
-  color: #080325;
+  color: black;
   background: none;
   border-radius: 0;
 }
@@ -3514,7 +3514,7 @@ fieldset[disabled] .btn {
 
 .popover {
   font: inherit;
-  color: #080325;
+  color: black;
   background-color: #fff;
   border: none;
   border-radius: 0;
@@ -3560,7 +3560,7 @@ fieldset[disabled] .btn {
   position: relative;
   display: block;
   overflow: hidden;
-  background: #160962;
+  background: #000004;
   transform: skew(-7deg);
   transform-origin: 50% 50%;
   -webkit-backface-visibility: hidden;
@@ -3785,7 +3785,7 @@ textarea {
 
 .youplay-form {
   padding: 4rem;
-  background: rgba(8, 3, 37, 0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 /* Input and Textarea */
@@ -3828,27 +3828,27 @@ textarea {
 
 .youplay-input.input-filled ::-webkit-input-placeholder,
 .youplay-textarea.input-filled ::-webkit-input-placeholder {
-  color: rgba(8, 3, 37, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .youplay-input.input-filled ::-moz-placeholder,
 .youplay-textarea.input-filled ::-moz-placeholder {
-  color: rgba(8, 3, 37, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .youplay-input.input-filled :-ms-input-placeholder,
 .youplay-textarea.input-filled :-ms-input-placeholder {
-  color: rgba(8, 3, 37, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .youplay-input.input-filled ::-ms-input-placeholder,
 .youplay-textarea.input-filled ::-ms-input-placeholder {
-  color: rgba(8, 3, 37, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .youplay-input.input-filled ::placeholder,
 .youplay-textarea.input-filled ::placeholder {
-  color: rgba(8, 3, 37, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .youplay-input input,
@@ -3914,7 +3914,7 @@ textarea {
 .youplay-textarea.input-filled .icon,
 .youplay-textarea.input-filled input,
 .youplay-textarea.input-filled textarea {
-  color: #080325;
+  color: black;
 }
 
 .youplay-textarea::after {
@@ -4181,7 +4181,7 @@ textarea {
 
 .navbar-youplay {
   min-height: 50px;
-  background: rgba(8, 3, 37, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   border: none;
   transition: 0.3s background ease;
 }
@@ -4312,8 +4312,8 @@ textarea {
 .navbar-youplay .navbar-nav > li > .dropdown-menu,
 .navbar-youplay .dropdown-menu {
   display: table;
-  background: #080325;
-  background: rgba(8, 3, 37, 0.8);
+  background: black;
+  background: rgba(0, 0, 0, 0.8);
   border: none;
 }
 
@@ -4410,7 +4410,7 @@ textarea {
   pointer-events: none;
   border: solid transparent;
   border-width: 6px;
-  border-bottom-color: rgba(8, 3, 37, 0.8);
+  border-bottom-color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar-youplay .navbar-right > .dropdown > .dropdown-menu::after {
@@ -4421,8 +4421,8 @@ textarea {
 }
 
 .navbar-youplay.navbar-small {
-  background: #080325;
-  background: rgba(8, 3, 37, 0.94);
+  background: black;
+  background: rgba(0, 0, 0, 0.94);
 }
 
 .navbar-youplay.navbar-small .navbar-brand {
@@ -4494,14 +4494,14 @@ textarea {
 
   .navbar-youplay .navbar-header {
     position: relative;
-    background: #080325;
-    background: rgba(8, 3, 37, 0.4);
+    background: black;
+    background: rgba(0, 0, 0, 0.4);
     z-index: 1;
   }
 
   .navbar-youplay.navbar-small .navbar-header {
-    background: #080325;
-    background: rgba(8, 3, 37, 0.94);
+    background: black;
+    background: rgba(0, 0, 0, 0.94);
   }
 
   .navbar-youplay .navbar-collapse {
@@ -4516,7 +4516,7 @@ textarea {
     padding-top: 95px;
     margin: 0;
     overflow-y: auto;
-    background: #080325;
+    background: black;
     border: none;
     transition: 0.3s padding-top ease, 0.5s transform ease;
   }
@@ -4670,7 +4670,7 @@ textarea {
   pointer-events: none;
   border: solid transparent;
   border-width: 6px;
-  border-right-color: rgba(8, 3, 37, 0.8);
+  border-right-color: rgba(0, 0, 0, 0.8);
 }
 
 .dropdown-submenu > .dropdown-menu::before {
@@ -4728,8 +4728,8 @@ textarea {
   left: 100%;
   border: solid transparent;
   border-width: 6px;
-  border-left-color: #080325;
-  border-left-color: rgba(8, 3, 37, 0.8);
+  border-left-color: black;
+  border-left-color: rgba(0, 0, 0, 0.8);
 }
 
 .dropdown-submenu.pull-left > .dropdown-menu::before {
@@ -4793,7 +4793,7 @@ textarea {
   width: 100%;
   min-height: 550px;
   overflow: hidden;
-  background: #160962;
+  background: #000004;
 }
 
 @media screen and (min-width: 0\0 ) {
@@ -5055,12 +5055,12 @@ footer .image img {
 
 .youplay-carousel.flickity-enabled .flickity-prev-next-button.previous {
   left: 0;
-  background: linear-gradient(to right, #080325, rgba(8, 3, 37, 0));
+  background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
 }
 
 .youplay-carousel.flickity-enabled .flickity-prev-next-button.next {
   right: -0.1px;
-  background: linear-gradient(to left, #080325, rgba(8, 3, 37, 0));
+  background: linear-gradient(to left, black, rgba(0, 0, 0, 0));
 }
 
 .youplay-carousel.flickity-enabled .flickity-prev-next-button.next svg {
@@ -5146,13 +5146,13 @@ footer .image img {
 .youplay-carousel.owl-carousel .owl-nav .owl-prev,
 .youplay-carousel.owl-carousel .owl-nav .owl-prev:hover {
   left: 0;
-  background: linear-gradient(to right, #080325, rgba(8, 3, 37, 0));
+  background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
 }
 
 .youplay-carousel.owl-carousel .owl-nav .owl-next,
 .youplay-carousel.owl-carousel .owl-nav .owl-next:hover {
   right: -0.1px;
-  background: linear-gradient(to left, #080325, rgba(8, 3, 37, 0));
+  background: linear-gradient(to left, black, rgba(0, 0, 0, 0));
 }
 
 /*---------------------------
@@ -5285,7 +5285,7 @@ footer .image img {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(8, 3, 37, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   transform: skew(-7deg);
   transform-origin: 50% 50%;
 }
@@ -5322,7 +5322,7 @@ footer .image img {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(8, 3, 37, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   transform: skew(-7deg);
   transform-origin: 50% 50%;
 }
@@ -5415,7 +5415,7 @@ footer .image img {
   height: 100%;
   padding: 4rem;
   visibility: hidden;
-  background: #080325;
+  background: black;
   opacity: 0;
   transition: 0.5s opacity ease, 0.5s visibility ease;
   z-index: 100000;
@@ -5448,7 +5448,7 @@ footer .image img {
   right: 4rem;
   font-size: 3rem;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #080325;
+  text-shadow: 1px 1px 1px black;
   z-index: 2;
 }
 
@@ -6033,7 +6033,7 @@ h2 + .youplay-news {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(8, 3, 37, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   transform: skew(-7deg);
   z-index: 1;
 }
@@ -6135,7 +6135,7 @@ h2 + .youplay-news {
 }
 
 .youplay-user-navigation ul li.active > a::after {
-  background-color: #080325;
+  background-color: black;
 }
 
 .youplay-user-navigation ul .flickity-viewport {
@@ -6496,7 +6496,7 @@ h2 + .youplay-news {
   margin-right: 3rem;
   overflow: hidden;
   cursor: pointer;
-  background: #160962;
+  background: #000004;
   transform: skew(-7deg);
   transform-origin: 50% 50%;
   -webkit-backface-visibility: hidden;
@@ -6556,7 +6556,7 @@ h2 + .youplay-news {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(8, 3, 37, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   transform: skew(-7deg);
   z-index: 1;
 }
@@ -6607,7 +6607,7 @@ h2 + .youplay-news {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(8, 3, 37, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   transform: skew(-7deg);
   z-index: 1;
 }
@@ -6886,13 +6886,13 @@ h2 + .youplay-news {
 -------------------------------------------------------------------*/
 
 .mfp-bg {
-  background: #080325;
+  background: black;
 }
 
 .mfp-figure::after {
   top: 65px;
-  background: #080325;
-  box-shadow: 0 0 8px rgba(8, 3, 37, 0.6);
+  background: black;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
 img.mfp-img {
@@ -7008,7 +7008,7 @@ button.mfp-close::before {
 
 .rs-youplay {
   position: relative;
-  background: #080325;
+  background: black;
 }
 
 .rs-youplay .tp-banner {
@@ -7024,7 +7024,7 @@ button.mfp-close::before {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #160962;
+  background: #000004;
   opacity: 0.4;
 }
 
@@ -7094,7 +7094,7 @@ button.mfp-close::before {
 .sweet-alert {
   padding: 30px;
   padding-bottom: 40px;
-  color: #080325;
+  color: black;
 }
 
 .sweet-alert h1,
@@ -7136,7 +7136,7 @@ button.mfp-close::before {
 }
 
 .sweet-overlay {
-  background-color: rgba(8, 3, 37, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /*------------------------------------------------------------------
@@ -7179,8 +7179,8 @@ footer .wrapper {
 footer .widgets {
   padding-top: 8rem;
   padding-bottom: 5rem;
-  background: #1a1a20;
-  background: rgba(26, 26, 32, 0.45);
+  background: #310505;
+  background: rgba(49, 5, 5, 0.45);
 }
 
 footer .social {
@@ -7188,8 +7188,8 @@ footer .social {
   padding-bottom: 8rem;
   overflow: hidden;
   text-align: center;
-  background: #080325;
-  background: rgba(8, 3, 37, 0.45);
+  background: black;
+  background: rgba(0, 0, 0, 0.45);
 }
 
 footer .social .container {
@@ -7229,7 +7229,7 @@ footer .social .social-icons .social-icon > a::after {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(8, 3, 37, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   transition: 0.3s background ease;
   transform: skew(-7deg);
   transform-origin: 50% 50%;
@@ -7253,7 +7253,7 @@ footer .social .social-icons .social-icon > a span {
 }
 
 footer .social .social-icons .social-icon > a:hover::after {
-  background: rgba(8, 3, 37, 0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 footer .social .icons {
@@ -7286,7 +7286,7 @@ footer .social .icons a i::after {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(8, 3, 37, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   transition: 0.3s background ease;
   transform: skew(-7deg);
   transform-origin: 50% 50%;
@@ -7297,7 +7297,7 @@ footer .social .icons a span {
 }
 
 footer .social .icons a:hover i::after {
-  background: rgba(8, 3, 37, 0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 767px) {
@@ -7314,8 +7314,8 @@ footer .copyright {
   position: relative;
   padding: 30px 10px;
   text-align: center;
-  background: #080325;
-  background: rgba(8, 3, 37, 0.7);
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /*------------------------------------------------------------------
@@ -7331,7 +7331,7 @@ footer .copyright {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #080325;
+  background: black;
   z-index: 100000000;
 }
 

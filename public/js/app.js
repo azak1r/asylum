@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -35169,8 +35169,8 @@ module.exports = function(module) {
 
 /**
  * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
+ * includes other libraries. It is a great starting point when
+ * building robust, powerful web applications using Laravel.
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
@@ -35234,7 +35234,7 @@ if (token) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***********************************!*\
   !*** multi ./resources/js/app.js ***!
   \***********************************/
