@@ -10,9 +10,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Blog post Migration
 - Blog post Model
+- Blog controller
+- Blog routing
+- Placeholder blogpost
 
 ### Changed
 - Moved db models to dedicated Models folder for easier access
+- access level to landing page
 
 ## [0.0.01] - 2019-04-15
 ### Added
