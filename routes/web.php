@@ -17,4 +17,7 @@ Route::get('/', function () {
 
 Auth::routes([ 'register' => false ]);
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@home')->name('home');
+Route::get('/', 'HomeController@index')->name('landing');
+
+Route::get('/blog', 'BlogController@index')->name('blogIndex');

@@ -65,7 +65,7 @@
                 </li>
 
                 <li>
-                    <a href="">
+                <a href="{{ route('blogIndex') }}">
                         Blog
                         <span class="label">Latest updates</span>
                     </a>
