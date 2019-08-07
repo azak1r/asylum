@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/logout', 'Auth\LoginController@logout');
-Auth::routes(['verify' => true, 'register' => false]);
+Auth::routes();
 
 
 Route::get('/', 'HomeController@index')->name('index');
