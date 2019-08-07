@@ -14,10 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/logout', 'Auth\LoginController@logout');
+Auth::routes();
 
-Auth::routes([ 'register' => false ]);
 
-Route::get('/home', 'HomeController@home')->name('home');
-Route::get('/', 'HomeController@index')->name('landing');
-
-Route::get('/blog', 'BlogController@index')->name('blogIndex');
+Route::get('/', 'HomeController@index')->name('index');

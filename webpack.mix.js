@@ -19,7 +19,8 @@ mix .js('resources/js/youplay.js', 'public/js')
     /*
     * Stylesheets
     */
-    .copy('node_modules/@fortawesome/fontawesome-free/webfonts', 'public/webfonts')
+    .copy('node_modules/@fortawesome/fontawesome-free/webfonts', 'public/fonts')
+    .copy('node_modules/bootstrap-validator/sandbox/bootstrap/dist/fonts', 'public/fonts')
     .copy('node_modules/bootstrap/dist/css/bootstrap.min.css', 'public/css/bootstrap.min.css')
     .copy('node_modules/flickity/dist/flickity.min.css', 'public/css/flickity.min.css')
     .copy('node_modules/magnific-popup/dist/magnific-popup.css', 'public/css/magnific-popup.css')
