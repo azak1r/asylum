@@ -6,6 +6,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.03] - 2019-08-07
+### Added
+- BlogEtc package
+- User authentication
+- Login and register forms
+
+### TODO for next version
+- Email Verification of users
+- Password reset functionality
+- Basic ACL for blog entries
+
+### Removed
+- Blog post migration
+- Blog post Model
+- Blog controller
+- Blog routing
+
 ## [0.0.02] - 2019-07-24
 ### Added
 - Blog post Migration
