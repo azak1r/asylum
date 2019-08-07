@@ -185,7 +185,7 @@
                     <h4 class="modal-title">Register</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="{{ route('register') }}" method="post">
+                    <form action="" method="post">
                         @csrf
                         <div>
                             <p>{{ __('Name') }}</p>
