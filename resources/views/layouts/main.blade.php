@@ -30,5 +30,6 @@
         </div>
 
         @include('components.scripts')
+        @yield('script')
     </body>
 </html>

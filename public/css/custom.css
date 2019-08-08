@@ -5,7 +5,7 @@ body:after {
     top: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../images/site-background.jpg');
+    background-image: url();
     background-size: cover;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);

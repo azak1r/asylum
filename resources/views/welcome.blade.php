@@ -2,10 +2,10 @@
 @section('title', 'Landing')
 
 @section('content')
-<div class="youplay-banner banner-top youplay-banner-parallax small">
+<section class="youplay-banner banner-top youplay-banner-parallax full">
     
         <div class="image" data-speed="0.4">
-            <img src="{{ asset('images/background.jpg') }}" alt="" class="jarallax-img">
+            <img src="{{ asset('images/wow_classic.png') }}" alt="" class="jarallax-img">
         </div>
     
 
@@ -14,35 +14,56 @@
             <div class="container">
                 
                 
-                    <h1 class="h1">Welcome to The Geek Asylum</h1>
                 
+                    
+    <div class="text-center">
+        <img src="{{ asset('images/wow-classic-logo.png') }}" alt="">
+        <h2>World wide release</h2>
+
+        <br><br>
+
+        <!-- See countdown init in bottom of the page -->
+        <div class="countdown h2" data-end="2019-08-25 00:00" data-timezone="PDT"></div>
+
+        <br><br>
+    </div>
+
                 
                 
             </div>
         </div>
     </div>
-</div>
+</section>
+@stop
 
-<div class="youplay-content container">
-    <h2 class="mt-0">In development</h2>
-    <p>
-        I am currently working on developing this app. For more information click the join our discord button below. I will however try to maintain a blog on my progress and some of its features that are developed. For now i will add the most recent changelog to this landing page until the blog section is functional. <br /> Current Deployed version: <span style="color:green">0.0.3</span><br><br> <b>// Azak1r AKA Yehee/Joery</b><br><br><br>
-        ## [0.0.03] - 2019-08-07<br>
-        ### Added<br>
-        - BlogEtc package<br>
-        - User authentication<br>
-        - Login and register forms<br><br>
-        
-        ### TODO for next version<br>
-        - Email Verification of users<br>
-        - Password reset functionality<br>
-        - Basic ACL for blog entries<br><br>
-        
-        ### Removed<br>
-        - Blog post migration<br>
-        - Blog post Model<br>
-        - Blog controller<br>
-        - Blog routing
-    </p>
-</div>
+@section('script')
+<script>
+    $(".countdown").each(function() {
+        var tz = $(this).attr('data-timezone');
+        var end = $(this).attr('data-end');
+            end = moment.tz(end, tz).toDate();
+        $(this).countdown(end, function(event) {
+            $(this).html(
+                event.strftime([
+                    '<div class="countdown-item">',
+                        '<span>Days</span>',
+                        '<span><span>%D</span></span>',
+                    '</div>',
+                    '<div class="countdown-item">',
+                        '<span>Hours</span>',
+                        '<span><span>%H</span></span>',
+                    '</div>',
+                    '<div class="countdown-item">',
+                        '<span>Minutes</span>',
+                        '<span><span>%M</span></span>',
+                    '</div>',
+                    '<div class="countdown-item">',
+                        '<span>Seconds</span>',
+                        '<span><span>%S</span></span>',
+                    '</div>'
+                ].join(''))
+            );
+        });
+    });
+</script>
 @stop
