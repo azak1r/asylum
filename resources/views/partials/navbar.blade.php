@@ -9,7 +9,7 @@
             </button>
             
                 <a class="navbar-brand" href="{{ route('index') }}">
-                    <img src="assets/images/logo-light.png" alt="">
+                    <img src="{{ URL::asset('images/logo-light.png') }}" alt="">
                 </a>
             
         </div>
@@ -65,7 +65,7 @@
                 </li>
 
                 <li>
-                <a href="">
+                <a href="{{ route('blogetc.index') }}">
                         Blog
                         <span class="label">Latest updates</span>
                     </a>
@@ -83,7 +83,7 @@
                 @auth
                 <li class=" dropdown dropdown-hover">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                        {{ $user->name }}
+                        {{ \Auth::user()->name }}
                         <span class="badge bg-default">8</span>
                         <span class="caret"></span>
                         <span class="label">user</span>

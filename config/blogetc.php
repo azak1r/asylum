@@ -28,7 +28,7 @@ return [
     // (you should disable this (set to false) if you don't trust your blog writers).
     // This will apply to all posts (past and future).
     // Do not set to true if you don't trust your blog post writers. They could put in any HTML or JS code.
-    'echo_html' => true, // default true
+    'echo_html' => false, // default true
 
     // If strip_html is true, it'll run strip_tags() before escaping and echoing.
     // It doesn't add any security advantage, but avoids any html tags appearing if you have disabled echoing plain html.
