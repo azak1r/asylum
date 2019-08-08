@@ -4,7 +4,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Released]
+
+## [0.01.00] - TBD
+### Added
+- Email verification
+- Password reset
+- ACL
+- SSO
+
+### Updated
+- Remaining styling work for the blog section
+
+### Started
+- Forum section
+
 ## [Unreleased]
+
+## [0.0.04] - 2019-08-08
+### Changed
+- Styling for blog index and blog posts
+- Blog admin panel adjusted to suite leviathan needs
+
+### Added
+- Comment system for blog posts
+- Added simple captcha for now to prevent bot spam
+
 
 ## [0.0.03] - 2019-08-07
 ### Added
