@@ -23,7 +23,7 @@
         <br><br>
 
         <!-- See countdown init in bottom of the page -->
-        <div class="countdown h2" data-end="2019-08-25 00:00" data-timezone="PDT"></div>
+        <div class="countdown h2" data-end="2019-08-27 00:00" data-timezone="PDT"></div>
 
         <br><br>
     </div>
