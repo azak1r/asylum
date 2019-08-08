@@ -14,5 +14,6 @@
         <script src="{{ asset('js/v4-shims.js') }}"></script>
 
         <link href="{{ asset('css/youplay.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
 
         <script src="{{ asset('js/app.js') }}"></script>
