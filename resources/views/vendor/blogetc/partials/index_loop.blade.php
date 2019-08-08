@@ -12,7 +12,7 @@
     </div>
     <div class="col-md-8">
         <div class="clearfix">
-            <h3 class="h2 pull-left m-0"><a href="blog-post-1.html">{{$post->title}}</a></h3>
+            <h3 class="h2 pull-left m-0"><a href="{{$post->url()}}">{{$post->title}}</a></h3>
             <span class="date pull-right"><i class="far fa-calendar-alt"></i> {{$post->posted_at->diffForHumans()}}</span>
         </div>
         <div class="tags">

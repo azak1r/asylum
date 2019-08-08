@@ -145,7 +145,7 @@ return [
 
 
         //should comments appear straight away on the site (set this to true)? or wait for approval (set to false)
-        'auto_approve_comments' => false, // default: false
+        'auto_approve_comments' => true, // default: false
 
 
         'save_user_id_if_logged_in' => true, // if user is logged in, should we save that user id? (if false it will always ask for an author name, which the commenter can provide
@@ -154,7 +154,7 @@ return [
 
         'ask_for_author_email' => true, // show 'author email' on the form ?
         'require_author_email' => false, // require an email (make sure ask_for_author_email is true if you want to use this)
-        'ask_for_author_website' => true, // show 'author website' on the form, show the link when viewing the comment
+        'ask_for_author_website' => false, // show 'author website' on the form, show the link when viewing the comment
 
         'disqus' => [
 

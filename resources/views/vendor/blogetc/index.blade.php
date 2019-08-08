@@ -16,6 +16,7 @@
         </div>
     </div>
 </div>
+@include("blogetc::partials.show_errors")
 
 <div class="container youplay-news">
     <div class="col-md-9">
