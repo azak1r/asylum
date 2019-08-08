@@ -1,5 +1,21 @@
-@extends("layouts.app",['title'=>$post->gen_seo_title()])
+@extends('layouts.main')
+@section('title', $post->gen_seo_title())
 @section("content")
+
+<div class="youplay-banner banner-top youplay-banner-parallax small">
+        
+        <div class="image" data-speed="0.4">
+            <img src="{{ URL::asset('images/blog/' . $post->image_large) }}" alt="" class="jarallax-img">
+        </div>
+    
+        <div class="info">
+            <div>
+                <div class="container">
+                        <h1 class="h1">{{$post->title}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     {{--https://webdevetc.com/laravel/packages/blogetc-blog-system-for-your-laravel-app/help-documentation/laravel-blog-package-blogetc#guide_to_views--}}

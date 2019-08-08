@@ -4,25 +4,28 @@
 
 <div class="row vertical-gutter">
     <div class="col-md-4">
-        <a href="blog-post-1.html" class="angled-img">
+        <a href="{{$post->url()}}" class="angled-img">
             <div class="img">
-                <?=$post->image_tag("medium", true, ''); ?>
+                <img src="{{ URL::asset('images/blog/' . $post->image_large) }}">
             </div>
-            <div class="youplay-hexagon-rating youplay-hexagon-rating-small" data-max="10" data-size="50" title="9.1 out of 10"><span>9.1</span></div>
         </a>
     </div>
-    
-    <div class='text-center'>
-    <?=$post->image_tag("medium", true, ''); ?>
+    <div class="col-md-8">
+        <div class="clearfix">
+            <h3 class="h2 pull-left m-0"><a href="blog-post-1.html">{{$post->title}}</a></h3>
+            <span class="date pull-right"><i class="far fa-calendar-alt"></i> {{$post->posted_at->diffForHumans()}}</span>
         </div>
-    <div style='padding:10px;'>
-    <h3 class=''><a href='{{$post->url()}}'>{{$post->title}}</a></h3>
-    <h5 class=''>{{$post->subtitle}}</h5>
-
-    <p>{!! $post->generate_introduction(400) !!}</p>
-
-    <div class='text-center'>
-        <a href="{{$post->url()}}" class="btn btn-primary">View Post</a>
+        <div class="tags">
+                <i class="fa fa-tags"></i> 
+                @foreach($post->categories as $category)
+                <a href="{{$category->url()}}">{{$category->category_name}}</a> 
+            @endforeach
+        </div>
+        <div class="description">
+            <p>
+                    {!! $post->generate_introduction(400) !!}
+            </p>
+        </div>
+        <a href="{{$post->url()}}" class="btn read-more pull-left">Read More</a>
     </div>
-        </div>
 </div>
