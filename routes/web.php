@@ -19,3 +19,6 @@ Auth::routes();
 
 
 Route::get('/', 'HomeController@index')->name('index');
+
+Route::get('captcha-form', 'CaptchaController@captchForm');
+Route::post('store-captcha-form', 'CaptchaController@storeCaptchaForm');
