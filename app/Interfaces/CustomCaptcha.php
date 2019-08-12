@@ -41,6 +41,7 @@ class CustomCaptcha implements CaptchaInterface
                 'required',
                 'captcha'
         ];
+        
     }
 
     public function runCaptchaBeforeShowingPosts(Request $request, BlogEtcPost $blogEtcPost)

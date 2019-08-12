@@ -18,8 +18,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Started
 - Forum section
+- User profiles
 
 ## [Unreleased]
+### [0.0.05] 2019-08-11
+### Updated
+- Email verification functional but disabled for now
+- Password reset mails are funtional but disabled for now
+
+### Added
+- Admin control panel
+- Simple ACL (to be expanded upon in future itterations)
+- Blizzard api access
+- Oauth
+- User Profiles
 
 ## [0.0.04] - 2019-08-08
 ### Changed
