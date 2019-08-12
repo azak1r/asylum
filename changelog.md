@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - User profiles
 
 ## [Unreleased]
-### [0.0.05] 2019-08-11
+### [0.0.06] TBD
 ### Updated
 - Email verification functional but disabled for now
 - Password reset mails are funtional but disabled for now
@@ -32,6 +32,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Blizzard api access
 - Oauth
 - User Profiles
+
+## [0.0.05] - 2019-08-12
+### Updated
+- Recaptcha functionality for commenting
 
 ## [0.0.04] - 2019-08-08
 ### Changed
