@@ -135,7 +135,7 @@
                                 @csrf
                                 <p>{{ __('E-Mail Address') }}</p>
                                 <div class="youplay-input">
-                                    <input id="levi-email" type="email" @error('email') is-invalid @enderror value="{{ old('email') }}" required autocomplete="email" autofocus>
+                                    <input id="levi-email" type="email" @error('email') is-invalid @enderror value="{{ old('email') }}" required name="email" autocomplete="email" autofocus>
                                     @error('email')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -145,7 +145,7 @@
 
                                 <p>{{ __('Password') }}</p>
                                 <div class="youplay-input">
-                                    <input id="levi-password" type="password" @error('password') is-invalid @enderror required autocomplete="current-password">
+                                    <input id="levi-password" type="password" @error('password') is-invalid @enderror required name="password" autocomplete="current-password">
                                     @error('password')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
