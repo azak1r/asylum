@@ -22,7 +22,7 @@
         "jquery": "^3.4.1",
         "jquery-countdown": "^2.2.0",
         "magnific-popup": "^1.1.0",
-        "moment": "^2.24.0",
+        "moment": "^2.29.4",
         "moment-timezone": "^0.5.25",
         "object-fit-images": "^3.2.4",
         "social-likes": "^3.1.3"
